@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Готель</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="imgs/logo.png" alt="#"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#show-menu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="show-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Головна <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#room">Кімнати</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Особливості
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Відпочинок</a>
+                <a class="dropdown-item" href="#">Прогулянки</a>
+                <a class="dropdown-item" href="#">Іншу</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Блог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="small-container">
+        <form class="main-font-family text-center">
+          <input type="search" />
+          <i class="fas fa-search"></i>
+          <input type="submit" value="Пошук" />
+        </form>
+        <div class="row">
+          <div
+            class="col-lg-4 col-12 lobster-font-family d-flex align-items-center"
+          >
+            <h2>
+              Давно встановлено, що читач буде відволікатися на те, що приваблює
+            </h2>
+          </div>
+        </div>
+        <div
+          class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center"
+        >
+          <h1 class="text-capitalize">
+            Запрошуємо до <br /><span>five hotel</span>
+          </h1>
+          <div id="headerslider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-three active"></div>
+              <div class="carousel-item carousel-two"></div>
+              <div class="carousel-item carousel-one"></div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#headerslider"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fas fa-angle-double-left"></i>
+              <span class="sr-only">Особливості</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#headerslider"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fas fa-angle-double-right"></i>
+              <span class="sr-only">Далі</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="st-rec"></div>
+      <div class="rd-rec"></div>
+    </header>
+
+    <div class="about lobster-font-family">
+      <div class="container">
+        <h2 class="text-center text-capitalize">ПРО НАШ ГОТЕЛЬ</h2>
+        <img src="imgs/shape.png" />
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <h4>Найкраще місце, щоб насолоджуватися життям</h4>
+            <p>
+              Для кожного з нас існують певні стандарти якості життя. Хтось
+              готовий задовольнятися скромним готельним номером, в якому можна
+              лише перевести дух між екскурсіями та діловими зустрічами. А
+              комусь просто необхідно розслабитися в атмосфері розкоші і
+              комфорту.
+            </p>
+            <button id="openModal" class="text-capitalize">Читати далі</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    Для кожного з нас існують певні стандарти якості життя. Хтось
+              готовий задовольнятися скромним готельним номером, в якому можна
+              лише перевести дух між екскурсіями та діловими зустрічами. А
+              комусь просто необхідно розслабитися в атмосфері розкоші і
+              комфорту.
+  </div>
+</div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="img"></div>
+          </div>
+        </div>
+        <h2 class="text-capitalize" id="room">КІМНАТИ & ЛЮКСИ</h2>
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="img"></div>
+          </div>
+          <div class="col-lg-8 col-12">
+            <div class="block">
+              <div>
+                <img src="imgs/shape.png" />
+                <strong>$405</strong>
+                <h5>Номери класу люкс</h5>
+                <p>
+                  До вашої уваги – двохкімнатний номер класу люкс з неймовірним
+                  краєвидом на природу. Достатньо пройти декілька кроків, щоб
+                  зрозуміти – тут пересікаються спокій гір з ритмом сучасного
+                  життя. Номер має вітальню, робочу зоною, відпочинкову зоною та
+                  двоспальне ліжком.
+                </p>
+                <button id="openModal" class="text-capitalize">Читати далі</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+   До вашої уваги – двохкімнатний номер класу люкс з неймовірним
+                  краєвидом на природу. Достатньо пройти декілька кроків, щоб
+                  зрозуміти – тут пересікаються спокій гір з ритмом сучасного
+                  життя. Номер має вітальню, робочу зоною, відпочинкову зоною та
+                  двоспальне ліжком. 
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery lobster-font-family" id="blog">
+      <div class="container">
+        <h2 class="text-calitalize text-center">НАША ГАЛЕРЕЯ</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="pic-one"><h4>Розслаблене плавання</h4></div>
+            <div class="pic-two"><h4>Просторий відпочинок</h4></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="pic-three active"><h4>Оздоровча йога</h4></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="pic-four"><h4>Романтична вечеря</h4></div>
+            <div class="pic-five"><h4>Релакс</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider main-font-family">
+      <h2 class="text-center text-capitalize main-font-family">
+        ЩО ГОВОРЯТЬ НАШІ КЛІЄНТИ
+      </h2>
+      <div id="slideToNext" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-block">
+              <img src="imgs/pic7.png" />
+              <h5>Джон</h5>
+              <p>
+                Давно встановлено, що читач відволікатиметься на вміст сторінки
+                та її макет.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact main-font-family text-center">
+      <div class="container">
+        <h2 id="contact">БУТИ НА ЗВ'ЯЗКУ</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="contact-form">
+        <form id="contactForm">
+            <input type="text" id="nameInput" placeholder="Ім'я" />
+            <input type="email" id="emailInput" placeholder="Пошта" />
+            <input type="text" id="phoneInput" placeholder="Телефон" />
+            <textarea id="messageInput" placeholder="Повідомлення"></textarea>
+            <input type="submit" value="Відправити" />
+        </form>
+    </div>
+          </div>
+          <div class="col-6">
+            <h2 class="text-right">
+              Забронювати свій відпочинок - найкраще проведення часу та
+              культурних зустрічей
+            </h2>
+            <img src="imgs/shape.png" />
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+    <footer class="noto-font-family">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <h3>Корисні посилання</h3>
+              <ul class="text-capitalize">
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Кімнати</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакти</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <h3>Знайти нас</h3>
+              <p>
+                Лікуальний центр, 176 Вулиця,<br />
+                Нью-Йорк, NY 10014, США<br />
+                (+71) 987 654 3210<br />
+                (+71) 987 654 3210<br />
+                fivehotel@gmail.com
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 form">
+    <h3>Лист новин</h3>
+    <form id="newsletterForm">
+        <input type="email" id="emailInput" placeholder="Пошта" />
+        <input type="submit" />
+    </form>
+</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector(".contact-form form");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Зупиняємо стандартну поведінку відправки форми
+
+        // Перевірка на заповненість полів
+        let allFieldsFilled = true;
+        const elements = form.elements;
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].value === "") {
+                allFieldsFilled = false;
+                break;
+            }
+        }
+
+        if (!allFieldsFilled) {
+            alert("Всі поля повинні бути заповнені.");
+        } else {
+            // Збираємо значення полів у об'єкт
+            const formData = {};
+            for (let i = 0; i < elements.length; i++) {
+                const fieldName = elements[i].getAttribute("placeholder");
+                const fieldValue = elements[i].value;
+                formData[fieldName] = fieldValue;
+            }
+
+            // Виводимо об'єкт зі зібраними даними у консоль
+            console.log(formData);
+
+            // Очищаємо значення полів форми
+            form.reset();
+        }
+    });
+});
+var form = document.getElementById("newsletterForm");
+    var elements = form.elements;
+
+    // Створюємо об'єкт для зберігання введених даних
+    var formData = {};
+
+    // Заповнюємо об'єкт з даними форми
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        if (element.type !== "submit") {
+            formData[element.id] = element.value;
+        }
+    }
+
+    // Виводимо об'єкт з даними в консоль
+    console.log(formData);
+
+    // Очищаємо значення полів форми
+    form.reset();
+// Отримання елементів DOM
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("openModal");
+var span = document.getElementsByClassName("close")[0];
+
+// Функція відкриття модального вікна
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Функція закриття модального вікна
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Закриття модального вікна при натисканні клавіші "Esc"
+window.onkeydown = function(event) {
+  if (event.key === "Escape") {
+    modal.style.display = "none";
+  }
+}
+
+// Закриття модального вікна при кліку поза ним
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";}
+}
+      $(function () {
+        "use strict";
+
+        var winH = $(window).height();
+
+        $("header").height(winH);
+
+        $(".navbar ul.navbar-nav li a").on("click", function (e) {
+          var getAttr = $(this).attr("href");
+
+          e.preventDefault();
+          $("html").animate({ scrollTop: $(getAttr).offset().top }, 1000);
+        });
+      });
+    </script>
+  </body>
+</html>
